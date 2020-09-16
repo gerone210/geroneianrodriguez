@@ -1,0 +1,110 @@
+html {
+  scroll-behavior: smooth;
+}
+
+ body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #111111;
+    padding-top: 78px;
+    color: #F7F8F9;
+    font-weight: 300;
+    
+ }
+ 
+ .main-container{
+    padding: 0;
+    overflow: hidden;
+}
+
+
+
+.anchor {
+  position: absolute;
+  transform: translateY(-30vh);
+}
+
+
+
+  .large-header {
+    position: relative;
+    width: 100%;
+    background: #111111;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+    z-index: 1;
+ }
+ 
+ .demo .large-header {
+  background-color: #111111;
+ }
+
+ /* .modal {
+   color: #111111;
+  
+ }
+
+ .modal-content {
+   background-color: #F7F8F9;
+ }
+
+ .modal-header {
+   border: none;
+ }
+
+ .modal-footer {
+  border: none;
+}
+
+#modal-btn {
+  background-color: #2ECEC2;
+  border: 2px solid #2ECEC2;
+  border-radius: 30px;
+  width: 100px;
+}
+
+#modal-btn:hover {
+  background-color: #F7F8F9;
+  color: #2ECEC2;
+}
+
+input[type="text"], textarea[class="form-control"],
+select.form-control {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #111111;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+input[type="text"]:focus, textarea[class="form-control"]:focus,
+select.form-control:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-bottom: 1px solid #2ECEC2;
+  background-color: #F7F8F9;
+}
+
+.modal-title {
+  font-weight: 300;
+} */
+
+/* .close {
+  color:#F7F8F9; 
+  opacity: 1;
+}
+
+.close:hover {
+  color:#F7F8F9; 
+  opacity: 1;
+} */
+
+
+ @media (max-width: 992px) {
+  .anchor {
+    position: absolute;
+    transform: translateY(-15vh);
+  }
+ }
+ 
